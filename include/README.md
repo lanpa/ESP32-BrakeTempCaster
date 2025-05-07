@@ -1,0 +1,1 @@
+# This file serves as documentation for the include directory, which is intended for header files that can be used across the project.
