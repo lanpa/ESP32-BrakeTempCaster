@@ -20,6 +20,20 @@ It was time to put everything together and have a field test.
 I already knew there were two failing modes. One is fading and the other is gradual locking. Once the brake fades, switching to the rear brake and letting the front caliper cool down makes everything return to normal. When the other case happened, it felt like the brake was engaged automatically with stronger and stronger force (maybe the boiled oil is pushing against the cylinder). The bike can not move even if I tried to pedal on a -20% slope. After stepping off the bike, the feel of heat radiating from the caliper and the burning marks on the disc are noticeable.
 
 
+## Trials
+
+| Slope       | Result | Temp |Description                                |
+|-------------|-----------|------|-------------------------------------------|
+| Mountain D (-10%) | Good   |  176     | Brake to adequate speed before the corner |
+| Mountain D (-10%) | Good   |  200    | Slightly hold brake all the way           |
+| Mountain A (-20%) | Fading  | 208    | Brake to adequate speed before the corner |
+| Mountain H (-15%) | Locked  | 193    | Brake to adequate speed before the corner |
+
+## Inaccuracies
+
+- The sensor's contact point is soldered on the cylinder side of the brake pad. The heat is genarated on the friction side, so the measured temperature is delayed. This is expected and can be confirmed in the video.
+
+- I use leaded solder, which has melting point at about 180C. Upon inspecting the pad after testing, the thermal tip is relocated and does not contact well. This echos the measured 200C temperature. As the contact surface becomes less, the inaccuracy goes further after each trial.
 
 
 # ESP32 Brake Temperature Sensor with BLE
