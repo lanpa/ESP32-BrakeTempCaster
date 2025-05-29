@@ -2,6 +2,12 @@
 
 My experiment in coding with pure AI.
 
+## Preview
+
+Check out a the project in action:  
+[![Watch on YouTube](https://img.youtube.com/vi/aps3ju3t1OY/0.jpg)](https://youtu.be/aps3ju3t1OY)
+
+
 One day, my disc brake failed when I was riding down the mountain. I felt that the handle was soft and the braking power was not strong enough. Therefore, I had an idea that I wanted to measure the temperature of the braking system. For the temperature of the system, I could use a remote sensing method like an infrared sensor, but sadly, the emissivity of the disc is not easy to calibrate. So I chose to use a touch-based measuring method based on thermocouple, attached to the brake pad. To record the values, I had some choices like writing the measured values into the flash of the embedded device. But there is a drawback to this method because if I want to render the values onto the video, I have to be able to sync the time of the recorded value and the time of the video frames. After some thought experiments, I decided not to choose this way. Instead, I already made some cycling videos that stamp the speed, cadence, and heart rate based on the cycling computer onto the video. So it narrowed down to broadcasting the temperature signal to a cycling app or my cycling computer.
 
 ## First Try
